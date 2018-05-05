@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>About Atika</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <!-- lightbox gallery -->
+    <link href="css/lightgallery.css" rel="stylesheet">
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mediaquires.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body class="scroll-y-mob scroll-y">
+    <div class="loader_overlay">
+        <div class="cssload-container">
+            <div class="cssload-shaft1"></div>
+            <div class="cssload-shaft2"></div>
+            <div class="cssload-shaft3"></div>
+            <div class="cssload-shaft4"></div>
+            <div class="cssload-shaft5"></div>
+            <div class="cssload-shaft6"></div>
+            <div class="cssload-shaft7"></div>
+            <div class="cssload-shaft8"></div>
+            <div class="cssload-shaft9"></div>
+            <div class="cssload-shaft10"></div>
+        </div>
+    </div>
+    <div class="overlay_border"></div>
+    <!-- menu_icon -->
+    <!-- menu_icon -->
+    <div class="menu_icon menu_icon_about">
+        <a href="javascript:void(0);" class="open_menu">
+            <img src="images/menu_icon_about.png" alt="">
+        </a>
+    </div>
+    <!--  <div class="logo">
+            <a href="index.html" class="open_menu">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div> -->
+    <header>
+        <a href="javascript:void(0);" class="close_menu">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </a>
+        <div class="row">
+            <div class="container">
+                <div class="menu_bar">
+                    <div class="col-md-6">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about_shub.html">About Shubh</a></li>
+                                <li class="active"><a href="about_atika.html">About Atika</a></li>
+                                <li><a href="location_advantages.html">Location Advantages</a></li>
+                                <li><a href="layout_plan.html">Layout Plan</a></li>
+                                <li><a href="floor_plan.html">Floor Plan</a></li>
+                                <li><a href="location.html">Location</a></li>
+                                <li><a href="bookings.html">Bookings</a></li>
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                            </ul>
+                            <ul class="social_icons">
+                                <li>
+                                    <a href="http://www.facebook.com/OriginCorpIndia" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.twitter.com/OriginCorpIndia" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.instagram.com/OriginCorpIndia" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="enquiry_form">
+                            <h5>Make an Enquiry</h5>
+                            <div class="form_wrapper enquiry_form">
+                                <form id="enquiry_form">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <input type="text" id="name" name="name" class="form-control" placeholder="Full Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <input type="text" id="email" name="email" class="form-control" placeholder="Email Id">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <input type="text" id="mobile" name="mobile" class="form-control" placeholder="Phone No.">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <input type="text" id="city" name="city" class="form-control" placeholder="City">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select id="country" name="country" class="selectpicker">
+                                                        <?php echo $country_options;?>
+                                                    </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select id="project" name="project" class="selectpicker">
+                                                        <?php echo $project_options;?>
+                                                    </select>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <button type="buttton" id="enquiry_submit" name="enquiry_submit" class="btn_submit btn_enquire">Submit</button>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <span id="response" name="response"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" id="form_type" name="form_type" value="enquiry">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="win_container about_atika" data-section-name="home">
+        <div class="vertical-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="about-sec">
+                            <h2>
+                                <a href="#">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </h2>
+                            <!-- <h6> Lorem ipsum dolor</h6> -->
+                            <div class="about-details">
+                                <p>Shubh's Atika salutes the power of womanhood by dedicating an architectural marvel to women that celebrates their achievements.
+                                </p>
+                                <p>
+                                    She is a melange of her many struggles, sacrifices and triumphs, her strengths, passion and elegance, her camaraderie, understanding and patience. She works with selfless interest to make others' lives easy. From the joy of making your cup of tea to choosing
+                                    the color on your wall, a home conjures so many emotions. And, women play a major role in shaping it gracefully.
+                                </p>
+                                <p>
+                                    She makes a house built of bricks and mortar a home! To honor these women is our honor. That's why we present her with exclusive ownership.
+                                </p>
+                                <p>
+                                    Atika invites bliss into a woman's life with fortress-like security and easy conveniences inherent on its premises. It fulfils every woman's desires, from a technically advanced safety system to necessities and leisure just a lift ride away. Atika is
+                                    designed exclusively considering her needs and her sense of comfort - more important than style for most women.
+                                </p>
+                                <!--  <p>
+                                        Shubh's Atika salutes the power of womanhood by dedicating an architectural marvel to women that celebrates their achievements.
+                                    </p>
+                                    <p>
+                                        She is a melange of her many struggles, sacrifices and triumphs, her strengths, passion and elegance, her camaraderie, understanding and patience. She works with selfless interest to make others' lives easy. From the joy of making your cup of tea to choosing the color on your wall, a home conjures so many emotions. And, women play a major role in shaping it gracefully.
+                                    </p>
+                                    <p>
+                                        She makes a house built of bricks and mortar a home! To honor these women is our honor. That's why we present her with exclusive ownership.
+                                    </p>
+                                    <p>
+                                        Atika invites bliss into a woman's life with fortress-like security and easy conveniences inherent on its premises. It fulfils every woman's desires, from a technically advanced safety system to necessities and leisure just a lift ride away. Atika is designed exclusively considering her needs and her sense of comfort - more important than style for most women.
+                                    </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="all_rights">
+                        <p>Copyright © 2017 Origin Realtors LLP </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="terms_content">
+                        <ul>
+                            <li><a href="javascript:void(0);">Terms &amp; Conditions</a></li>
+                            <li><a href="javascript:void(0);">Disclaimer</a></li>
+                            <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="powered_by">
+                        <p>
+                            <a href="http://btspvtltd.com" target="_blank">Powered by Behind The Scenes</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/tweenmax/TweenMax.min.js"></script>
+    <script src="js/tweenmax/DrawSVGPlugin.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addIndicators.min.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/lightgallery.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/animation.js"></script>
+
+</body>
+
+</html>
